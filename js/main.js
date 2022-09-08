@@ -34,7 +34,7 @@ var date = new Date().getHours()
 if(date >= 6 && 11 >= date){
     document.getElementById('text').innerHTML = "Good Morning World";
 }
-else if(date >= 11 && 8 >= date){
+else if(date > 11 && 8 >= date){
     document.getElementById('text').innerHTML = "Good Afternon World";
 }
 else{
